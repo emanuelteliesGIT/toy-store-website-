@@ -3,22 +3,35 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    scroll-bhevaiour: smooth:
+    }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: Arial, helvetica, sans-serif;
+    background-color: #f5f5f5;
+    linwe hieght: 1.6;
     color: #333;
 }
 
 header {
-    background-color: #222;
+    background:
+        lineaer gradient(135 degt, #111111 #1c1c1c);
+
     color: white;
-    padding: 20px;
+    padding: 28px 20px;
     text-align: center;
+        border-bottom:2px solid #e63946;
+        box shadow : 0 4px 20px rgba (0,0,0,0, 0.5);
+    }
+
 }
 
 nav {
-    margin-top: 15px;
+    display: flex;
+    justify-content: 2px;
+    text-transform: uppercase;
+    margin bottom : 15px;
 }
 
 nav a {
